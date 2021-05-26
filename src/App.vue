@@ -14,7 +14,7 @@
         </li>
       </ul>
     </nav>
-    <div v-if="notaActual" class="“nota-actual”">
+    <div v-if="notaActual" class="nota-actual">
       <h2>{{ notaActual.titulo }}</h2>
 
       <p>{{ notaActual.contenido }}</p>
